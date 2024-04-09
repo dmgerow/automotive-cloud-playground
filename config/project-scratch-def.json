@@ -1,13 +1,30 @@
 {
   "orgName": "dgerow company",
   "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
+  "features": [
+    "EnableSetPasswordInApi",
+    "IndustriesAutomotive",
+    "IndustriesActionPlan",
+    "IndustriesMfgPartnerLeadMgmt",
+    "IndustriesMfgPartnerVisitMgmt",
+    "IndustriesMfgPartnerPerfMgmt",
+    "IndustriesMfgAccountForecast",
+    "IndustriesMfgTargets"
+  ],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },
     "mobileSettings": {
       "enableS1EncryptedStoragePref2": false
+    },
+    "industriesAutomotiveSettings": {
+      "enableAutomotiveCloud": true
+    },
+    "industriesManufacturingSettings": {
+      "enablePartnerVisitManagement": true,
+      "enablePartnerPerformanceManagement": true,
+      "enablePartnerLeadManagement": true
     }
   }
 }
