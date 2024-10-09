@@ -1,30 +1,107 @@
 {
-  "orgName": "dgerow company",
-  "edition": "Developer",
+  "orgName": "Automotive Cloud Scratch Org",
+  "edition": "Enterprise",
+  "language": "en_US",
   "features": [
-    "EnableSetPasswordInApi",
+    "ContactsToMultipleAccounts",
     "IndustriesAutomotive",
-    "IndustriesActionPlan",
     "IndustriesMfgPartnerLeadMgmt",
-    "IndustriesMfgPartnerVisitMgmt",
     "IndustriesMfgPartnerPerfMgmt",
-    "IndustriesMfgAccountForecast",
-    "IndustriesMfgTargets"
+    "IndustriesMfgPartnerVisitMgmt",
+    "InsuranceCalculationUser",
+    "OmniStudioDesigner",
+    "OmniStudioRuntime",
+    "PersonAccounts",
+    "StateAndCountryPicklist",
+    "IndustriesServiceExcellenceAddOn",
+    "DevelopmentWave",
+    "DataProcessingEngine",
+    "IndustriesActionPlan",
+    "AnalyticsQueryService",
+    "IndustriesSalesExcellenceAddOn",
+    "BusinessRulesEngine",
+    "DecisionTable",
+    "WorkThanksPref",
+    "CampaignInfluence2",
+    "ArcGraphCommunity",
+    "LightningScheduler",
+    "PartnerCommunity",
+    "AutomotiveExperienceCloud",
+    "LeadMngmntInExperienceCloud",
+    "Communities",
+    "Sites",
+    "CustomerCommunity",
+    "ServiceCloud",
+    "ServiceUser",
+    "CriteriaBasedSearchAndFilter",
+    "FinancialServicesUser:5",
+    "IndustriesManufacturing ",
+    "VehicleAndAssetFinanceFoundation",
+    "VehicleAndAssetFinFndtnExprc"
   ],
   "settings": {
-    "lightningExperienceSettings": {
-      "enableS1DesktopEnabled": true
-    },
-    "mobileSettings": {
-      "enableS1EncryptedStoragePref2": false
-    },
     "industriesAutomotiveSettings": {
-      "enableAutomotiveCloud": true
+      "enableAutomotiveCloud": true,
+      "enableAutomotiveServiceExcellence": true
     },
     "industriesManufacturingSettings": {
       "enablePartnerVisitManagement": true,
       "enablePartnerPerformanceManagement": true,
-      "enablePartnerLeadManagement": true
+      "enablePartnerLeadManagement": true,
+      "enableVehicleAndAssetFinance": true
+    },
+    "emailAdministrationSettings": {
+      "enableEnhancedEmailEnabled": true
+    },
+    "pathAssistantSettings": {
+      "pathAssistantEnabled": true
+    },
+    "interestTaggingSettings": {
+      "enableInterestTagging": true
+    },
+    "industriesSettings": {
+      "enableActionableList": true,
+      "enableTimelinePref": true,
+      "enableVisitInventoryEnabled": true,
+      "enableGroupMembershipPref": true,
+      "enableCriteriaBasedSearchAndFilter": true
+    },
+    "KnowledgeSettings": {
+      "enableLightningKnowledge": true
+    },
+    "InterestTaggingSettings": {
+      "enableInterestTagging": true
+    },
+    "WorkDotComSettings": {
+      "enableWorkThanksPref": true,
+      "enableProfileSkills": true
+    },
+    "campaignSettings": {
+      "enableCampaignInfluence2": true
+    },
+    "chatterSettings": {
+      "enableChatter": true,
+      "enableFeedEdit": true
+    },
+    "enhancedNotesSettings": {
+      "enableEnhancedNotes": true,
+      "enableTasksOnEnhancedNotes": true
+    },
+    "quoteSettings": {
+      "enableQuote": true
+    },
+    "accountSettings": {
+      "enableRelateContactToMultipleAccounts": true
+    },
+    "experienceBundleSettings": {
+      "enableExperienceBundleMetadata": true
+    },
+    "communitiesSettings": {
+      "enableNetworksEnabled": true,
+      "enableOotbProfExtUserOpsEnable": true
+    },
+    "incidentMgmtSettings": {
+      "enableIncidentMgmt": true
     }
   }
 }

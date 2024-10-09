@@ -1,5 +1,11 @@
 # Salesforce DX Project: Next Steps
 
+It takes a long time to make this scratch org so set a long timeout
+
+```bash
+sf org create scratch --definition-file config/project-scratch-def.json --alias automotivecloudplayground --duration-days 7 --set-default --wait 60
+```
+
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
 
 ## How Do You Plan to Deploy Your Changes?
